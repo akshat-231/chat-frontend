@@ -1,0 +1,40 @@
+@import "../globals";
+.homepage {
+  width: 400px;
+  height: 400px;
+  background-image: linear-gradient(45deg, rgb(11, 55, 58) , white);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  h1{
+    color: #000;
+  }
+  input {
+    height: 50px;
+    width: 80%;
+    text-decoration: none;
+    background-color: mintcream;
+    color: #000;
+    border: none;
+    padding-left: 1rem;
+    border-radius: 5px;
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: 100px;
+    border: none;
+    background-color: #7989bb;
+    border-radius: 5px;
+
+    color: black;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
