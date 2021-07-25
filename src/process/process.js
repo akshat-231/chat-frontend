@@ -21,6 +21,10 @@ function Process() {
       <h5>
         Seceret Key : <span>"obvwoqcbv21801f19d0zibcoavwpnq"</span>
       </h5>
+      <div className="crypt">
+        <h4>Incoming Data</h4>
+        <p>{state.cipher}</p>
+      </div>
       <Lottie
         options={defaultOptions}
         height={150}
